@@ -1,0 +1,52 @@
+
+/* Basic body styles like font */
+body {
+   font-family: Helvetica, sans-serif;
+   font-size: 90%;
+   color: #333;
+   background: #fdfdfd;
+   padding: 0 40px;
+   border: none;
+}
+
+/* Header styles */
+h1, h2, h3 {
+   font-weight: bold;
+   margin: 1.5em 0 0 0;
+   padding: 0;
+}
+h1 {
+    color: "red";
+    font-size: 175%;
+    text-align:center;
+}
+h2 {
+    font-size: 145%
+}
+h3 {
+    font-size: 120%
+}
+
+/* Paragraph styles */
+p {
+   margin: 1em 0;
+   padding: 0;
+}
+
+/* Form styles */
+form {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 1em 0;
+}
+
+form label {
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+/* Hidden element */
+.hidden {
+   display: none !important;
+}

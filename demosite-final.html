@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <!-- Javascript now moved to a seperate file -->
+        <script  type="text/javascript" src="scripts.js"></script>
+
+        <!-- Styles -->
+        <link href="http://meyerweb.com/eric/tools/css/reset/reset.css" rel="stylesheet" type="text/css">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+        <h1>Welcome to Your First Webpage</h1>
+
+        <p>If you like my site, why not sign up for my email newsletter?
+            Just fill out the form below and I'll show you some special
+            content just for subscribers!</p>
+
+        <form name="demoform" OnSubmit="return showContent()" id="membersForm">
+            <label>Email address</label>
+            <input type="email" name="email" />
+
+            <input type="submit" />
+        </form>
+
+        <p class="hidden" id="membersText">
+            The password to all my websites is "12345678".</p>
+
+    </body>
+</html>
